@@ -200,7 +200,7 @@ footer .fa-solid, .fa-brands{
 
 /* MENI STRANICA*/
 #cover{
-    height: 800px;
+    height: 100vh;
     border-bottom: 1px solid var(--primary);
 }
 .cover-container {
@@ -307,7 +307,7 @@ footer .fa-solid, .fa-brands{
 
 #kontakt-mapa{
     border-top: 1px solid var(--primary);
-    height: 715px;
+    height: 100vh;
 }
 
 textarea{
@@ -319,7 +319,7 @@ textarea{
 
 #autordrzac{
     border-top: 1px solid var(--primary);
-    height: 715px;
+    height: 100vh;
 }
 .autor-container {
     display: flex;
