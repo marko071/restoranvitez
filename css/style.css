@@ -3,7 +3,8 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: 
+    box;
     font-family: 'Ubuntu', sans-serif;
 }
 :root {
@@ -31,8 +32,10 @@
 main{
     background-color: var(--secondary);
 }
+
 .carousel-item {
     height: 800px;
+    border-bottom: 1px solid var(--t-color);
   }
   
 .carousel-item img{
@@ -68,7 +71,6 @@ main{
 
 #usluge{
     border-bottom: 1px solid var(--t-color);
-    border-top: 1px solid var(--t-color);
     width: 100%;
 }
 
@@ -199,7 +201,7 @@ footer .fa-solid, .fa-brands{
 }
 
 /* MENI STRANICA*/
-#cover{
+#cover-meni{
     height: 100vh;
     border-bottom: 1px solid var(--primary);
 }
